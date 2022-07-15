@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- add the style sheet here -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/style.css"/>
+    <title>Weather Dashboard</title>
+</head>
+
+<header>
+    <h1 class="apptitle">Weather Dashboard</h1>
+</header>
+
+<body>
+    <main class="row search-row">
+        <div class="col-12 col-md-4 d-flex flex-column">
+            <form id="user-form" class="user-form">
+                <div class="title">Search for a city </div>
+                <input type="text" placeholder="Search.." id= "search" name="search" autofocus="true">
+                <button id = "searchbtn" type="submit"><i class="fa fa-search"></i></button>
+            </form>
+            <ul class="city-list"></ul>
+      </div>
+<!--container to hold today's weather-->
+      <div class="col-12 col-md-8 d-flex flex-column">
+        <div class="row weather-row"></div>
+    
+<!--container to hold 5 day forecast weather-->
+      <div class="row weather5-row">
+            <div class="col-md-12 weather5"></div>
+      </div>
+
+      <div class="row forecast-row"></div>
+
+
+
+
+
+
+
+
+
+    </main>
+    
+</body>
+</html>
