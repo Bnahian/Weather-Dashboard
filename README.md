@@ -16,7 +16,7 @@ Created variables for City name, current date and icon information for use in cu
 
 Empty Current Weather element for new data
 
-Updated <h2> element to show city, date and icon
+Updated element to show city, date and icon
 
 Removed class name 'hidden' to show current weather card
 
