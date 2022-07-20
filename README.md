@@ -1,4 +1,4 @@
-We were asked to make a weather app so that a traveller can see the weather outlook for multiple cities and can plan accordingly. The link to the app is: 
+We were asked to make a weather app so that a traveller can see the weather outlook for multiple cities and can plan accordingly. The link to the app is: https://bnahian.github.io/Weather-Dashboard/
 
 In the java scipt:
 
